@@ -4,17 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
   <link href="./style.css" rel="stylesheet">
   <style type="text/tailwindcss">
     @layer utilities {
@@ -31,45 +20,53 @@
         <nav>
             <div>
                 
-                <header>
-                   
-                    <div class="header-logo">ロゴ</div>
-                    <div class="header list">
-                    <ul class="text-sky-700 text-sm">
-                        <li>選ばれる理由</li>
-                        <li>マッチングの流れ</li>
-                        <li>よくあるご質問</li>
+                <header class="bg-sky-500">
+                <header-list class="mt-5">
+                    <div class="ps-5 header-logo">ロゴ</div>
+                    <ul class="grid grid-flow-col auto-cols-max text-slate-300 text-sm absolute top-0 text-center mx-20">
+                        <li class="px-5">選ばれる理由</li>
+                        <li class="px-5">マッチングの流れ</li>
+                        <li class="px-5">よくあるご質問</li>
                     </ul>
-                            
+
+                    <div class="container sm pr-5">
+                        <div class="text-sm">
+                            <button href="#" class="text-center px-5 py-2 w-30 bg-slate-100 box-content absolute top-0 right-20">企業の方はこちら</button>
+                            <button href="#" class="text-center px-5 py-2 w-30 bg-slate-100 box-content absolute top-0 right-0">"お問い合わせ</button>
                         
-                    </div>
-                    <div class="btn headb">
-                        <a href="#" class="btn here">企業の方はこちら</a>
-                        <a href="#" class="btn inquiry">お問い合わせ</a>
-                       </div>
-                </header>
-                <div class="top wrapper">
-            
-                    <div class="bg-fixed" 
-                    style="background-image: url('https://www.clearvoice.com/wp-content/uploads/2020/06/Reverse-Image-Search_Hero_1360x646.jpg')"></div>
-                    <div class= "container">
+                           </div>
+                        </div>
+                    
+                        
+                            
+                </header-list> 
+                    
                     
                        
-                    <h1>新しい自分に 出会おう。</h1>
-                    </div>
-                    <div class="btn wrapper">
-                        <a href="#" class="btn download">資料をダウンロードする</a>
-                        <a href="#" class="btn register">無料登録する</a>
-                    </div>
+                       
+                       </div>
+                       </div>
 
+                       <h1>新しい自分に 出会おう。</h1>
+                       <img src="/Users/kali/Desktop/thelady.PNG">
 
-                </div>
-
-                    </div>
+                       <a href="#" class="download">資料をダウンロードする</a>
+                       <a href="#" class="register">無料登録する</a>
+                
+                   </div>
+                   </div>
+                    
+   
+                
+   
+                       </div>
+                       
+                    </header>
+                             
 
                 <div class="main">
                      <h1>○○が選ばれる3つの理由</h1>
-                     <a href="#" class="btn register">無料登録する</a>
+                     <a href="#" class="register">無料登録する</a>
 
                 </div>
 
